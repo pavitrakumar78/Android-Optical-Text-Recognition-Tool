@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Image"
+        android:id="@+id/chkImageButton"
+        android:layout_marginTop="178dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/ErosionChBox" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save and go back"
+        android:id="@+id/goBackButton"
+        android:layout_alignTop="@+id/chkImageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/chkImageButton" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/chkImageButton" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PixNeighSeekBar"
+        android:layout_above="@+id/goBackButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:layout_alignEnd="@+id/goBackButton"
+        android:indeterminate="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pixel Neighbour Size:"
+        android:id="@+id/textView"
+        android:layout_above="@+id/PixNeighSeekBar"
+        android:layout_alignParentStart="false"
+        android:layout_toStartOf="@+id/ErosionChBox" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/constantSeekBar"
+        android:indeterminate="false"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/erosionValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="C (Constant to subtract from pixel):"
+        android:id="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/constantSeekBar"
+        android:layout_alignEnd="@+id/DilateChBox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adaptive Thresholding Settings"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dilation"
+        android:id="@+id/DilateChBox"
+        android:checked="false"
+        android:layout_above="@+id/goBackButton"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erosion"
+        android:id="@+id/ErosionChBox"
+        android:checked="false"
+        android:layout_above="@+id/goBackButton"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/erosionValue"
+        android:layout_alignTop="@+id/ErosionChBox"
+        android:layout_alignEnd="@+id/goBackButton"
+        android:layout_toEndOf="@+id/textView3"
+        android:editable="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dilationValue"
+        android:layout_alignBottom="@+id/erosionValue"
+        android:layout_alignEnd="@+id/chkImageButton"
+        android:layout_toEndOf="@+id/textView2"
+        android:editable="true" />
+
+</RelativeLayout>

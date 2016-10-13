@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OCRActivity" >
+
+    <TextView
+        android:id = "@+id/tv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:textIsSelectable="true"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/shareButton" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="640dp"
+        android:layout_height="480dp"
+        android:layout_below="@id/tv_result"
+        android:layout_toStartOf="@+id/settingsButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/shareButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="640dp"
+        android:layout_height="480dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:layout_alignStart="@+id/settingsButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:id="@+id/selectImageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/ocrButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/settingsButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/shareButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OCR"
+        android:id="@+id/ocrButton"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/settingsButton" />
+
+</RelativeLayout>

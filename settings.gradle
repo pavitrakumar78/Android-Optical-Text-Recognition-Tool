@@ -1,0 +1,3 @@
+include ':app', ':scanlibrary'
+include ':libraries:tess-two'
+include ':openCVLibrary2411'
