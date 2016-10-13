@@ -5,4 +5,11 @@ Capture photos or load from gallery and use the built in cropper tool and OCR to
 
 Scanned text can be shared to other apps or it can slo be saved as .txt in Google Drive.
 
+Screenshots:
+
+![pic1](https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175851.png)
+![pic2](https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175901.png)
+![pic3](https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175909.png)
+![pic4](https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175919.png)
+![pic5](https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175933.png)
 
