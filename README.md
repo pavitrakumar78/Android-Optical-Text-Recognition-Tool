@@ -8,10 +8,10 @@ Scanned text can be shared to other apps or it can slo be saved as .txt in Googl
 Screenshots:
 
 Crop Tool:
-(Parts of code from https://github.com/jhansireddy/AndroidScannerDemo)
+(Parts of code from https://github.com/jhansireddy/AndroidScannerDemo)  
 <img src="https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175851.png" width="250" height = "450">  
 
-Crop Result:
+Crop Result:  
 <img src="https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175901.png" width="250" height = "450">  
 
 OCR App Interface:
