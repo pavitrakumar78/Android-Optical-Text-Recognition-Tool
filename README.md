@@ -27,7 +27,7 @@ Custom OCR Settings:
 <img src="https://github.com/pavitrakumar78/Android-Optical-Text-Recognition-Tool/blob/master/screenshots/Screenshot_20161013-175933.png" width="250" height = "450">  
 
 
-##Main Dependencies:
-
-[OpenCV For Android](http://opencv.org/platforms/android.html)
-[Tesseract for Android](https://github.com/rmtheis/tess-two)
+##Main Dependencies:  
+  
+[OpenCV For Android](http://opencv.org/platforms/android.html)  
+[Tesseract for Android](https://github.com/rmtheis/tess-two)  
